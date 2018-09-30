@@ -8,11 +8,11 @@ public class A2 {
     Random r = new Random();
 
     public A2() {
-            for (int i = 0; i < 3; i++) {
-                for (int j = 0; j < 3; j++) {
-                    matrix[i][j] = r.nextInt(10);
-                }
-            }//заполняем массив рандомными числами от 0 до 9
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                matrix[i][j] = r.nextInt(10);
+            }
+        }//заполняем массив рандомными числами от 0 до 9
 
         System.out.println("Дана матрица:");
 
@@ -32,6 +32,6 @@ public class A2 {
 
         System.out.println("Разницa между суммами диагоналей матрицы = " + Math.abs(sumFirst - sumSecond) );
 
-        }// constructor
+    }// constructor
 
 }
